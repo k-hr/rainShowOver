@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/signin"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Acc Signin" />
+        <item
+            android:id="@+id/nav_acc"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="My Account" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_screen_lock_portrait_black_24dp"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_portrait_black_24dp"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "4285699083",
+    "firebase_url": "https://mpmc-3f827.firebaseio.com",
+    "project_id": "mpmc-3f827",
+    "storage_bucket": "mpmc-3f827.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4285699083:android:5ec3b5f80392d17d",
+        "android_client_info": {
+          "package_name": "com.example.rainwaterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4285699083-1vlgh8er1fof9opgumecj6mo81fnunvf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rainwaterapp",
+            "certificate_hash": "257996c5d1bcc596f95a4b3d8f1bac15a466775b"
+          }
+        },
+        {
+          "client_id": "4285699083-3en76ukka3olqq7vcecgr0fsao62hu5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkr2pGrt6zRXzx-3m7m_Mcsy6fY93HYag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4285699083-3en76ukka3olqq7vcecgr0fsao62hu5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

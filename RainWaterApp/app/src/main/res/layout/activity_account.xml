@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".AccountActivity"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account Details"
+            android:textSize="35dp"
+            android:fontFamily="casual"
+            android:textColor="@color/voilet"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/naam"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name : Kumar Harshil"
+            android:gravity="center"
+            android:fontFamily="monospace"
+            android:textSize="22sp"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:id="@+id/phn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile : 8249146572"
+            android:fontFamily="monospace"
+            android:textSize="22sp"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"/>
+
+
+        <TextView
+            android:id="@+id/umar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AGE : 20 years"
+            android:fontFamily="monospace"
+            android:textSize="22sp"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"/>
+
+
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: b416027@iiit-bh.ac.in"
+            android:fontFamily="monospace"
+            android:textSize="22sp"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"/>
+
+
+    <Button
+        android:id="@+id/btn_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textSize="19sp"
+        android:textColor="@color/black"
+        android:fontFamily="monospace"
+        android:background="@color/voilet"
+        android:text="  CHANGE Details  "/>
+
+</LinearLayout>
